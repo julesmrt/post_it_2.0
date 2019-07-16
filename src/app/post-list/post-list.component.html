@@ -1,0 +1,15 @@
+<div> 
+	<h3>
+		<a href="https://www.zeitverschiebung.net/fr/city/2990999" target="_blank">
+			<span>Heure actuelle</span>
+			<br />Nancy
+		</a>
+	</h3> 
+	<iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=fr&size=medium&timezone=Europe%2FParis" frameborder="0" seamless>	
+	</iframe> </div>
+<h1>Posts</h1>
+<ul class="list-group">
+  <app-post-list-item
+      *ngFor="let post of posts"
+      [post]="post"></app-post-list-item>
+</ul>

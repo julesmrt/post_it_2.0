@@ -1,0 +1,15 @@
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li routerLinkActive="active"><a routerLink="posts">List des posts</a></li>
+      <li routerLinkActive="active"><a routerLink="new">New post</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+    <div class="row">
+      <app-api-weather></app-api-weather>
+      <router-outlet></router-outlet>
+    </div>
+</div>
